@@ -29,10 +29,10 @@ Sync nodes are synchronization data nodes, networked entities depend on these to
 This synchronization data node is used to share sector position data to other clients about a specific entity, parsing is shown below. It's worth mentioning that the `Parse` code written down below is written by reverse-engineering game code (more or so by reading `NodeCommonDataOperations<class CSectorPositionDataNode, class IProximityMigrateableNodeDataAccessor>` first's VMT ([Virtual Method Table][vmturl]) method which is the `read` method, which would be offset 8 from the VMT).
 
 *The game's VMT:*</br>
-![Image](https://i.imgur.com/9Til977.png)
+![Image](https://i.imgur.com/k795bys.png)
 
 *The read method:*</br>
-![Image](https://i.imgur.com/tPIzQMg.png)
+![Image](https://i.imgur.com/RTudNqd.png)
 
 *The game reading the position:*</br>
 ![Image](https://i.imgur.com/5BX8krM.png)

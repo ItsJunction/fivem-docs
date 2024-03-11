@@ -9,7 +9,7 @@ Contrary to the other resources on this documentation (eg. chat, mapmanager and 
 ## Main Features
 - Recipe-based Server Deployer: create a server in under 60 seconds!
 - Start/Stop/Restart your server instance or resources
-- Server Performance Chart (all 3 threads) ([example](https://i.imgur.com/VG8hpzr.gif))
+- Server Performance Chart (all 3 threads) ([example](https://i.imgur.com/k1R1ZXO.gif))
 - Access control:
 	- Login via Password or CitizenFX
 	- Admin permission system ([more info](permissions))
